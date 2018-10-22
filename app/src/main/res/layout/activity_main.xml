@@ -30,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
-            android:text="Button" />
+            android:text="a message"
+            android:onClick="message"/>
 
         <Space
             android:layout_width="match_parent"
@@ -41,8 +42,9 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:onClick="icon"
             android:layout_weight="2"
-            android:text="Button" />
+            android:text="a message &amp; an icon" />
 
         <Space
             android:layout_width="match_parent"
@@ -54,7 +56,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
-            android:text="Button" />
+            android:onClick="iconbuttonmessage"
+            android:text="an icon &amp; a message &amp; a button" />
 
         <Space
             android:layout_width="match_parent"
@@ -65,8 +68,9 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:onClick="bgchange1"
             android:layout_weight="2"
-            android:text="Button" />
+            android:text="change background" />
 
         <Space
             android:layout_width="match_parent"
@@ -78,7 +82,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
-            android:text="Button" />
+            android:onClick="bgchange2"
+            android:text="change background and return to white" />
 
         <Space
             android:layout_width="match_parent"
