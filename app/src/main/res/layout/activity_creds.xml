@@ -19,6 +19,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.5"
         android:layout_gravity="center"
+        android:onClick="return1"
         app:srcCompat="@drawable/back" />
 
     <Space
